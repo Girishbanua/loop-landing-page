@@ -2,11 +2,10 @@ import React from "react";
 import { useState } from "react";
 
 const App = () => {
-  const [menu, setMenu] = useState(true);
-  const handleDisplay = () => {};
+  const [menu, setMenu] = useState(true);  
   return (
     <div>
-      <header className="p-6 bg-[url(images/mobile/image-hero.jpg)] bg-cover bg-no-repeat h-[675px] ">
+      <header className="p-6 bg-[url(/images/mobile/image-hero.jpg)] bg-cover bg-no-repeat h-[675px] ">
         <nav className="flex items-center justify-between pt-4">
           <div className="z-30">
             <img src="images/logo.svg" alt="logo" />
@@ -53,36 +52,36 @@ const App = () => {
             <h1>our creations</h1>
           </div>
           <div className="creationGallery mt-10 ">
-            <div className="bg-[url(images/mobile/image-deep-earth.jpg)]">
+            <div className="bg-[url(/images/mobile/image-deep-earth.jpg)]">
               <div></div>
               <p>Deep earth</p>
             </div>
-            <div className="bg-[url(images/mobile/image-night-arcade.jpg)]">
+            <div className="bg-[url(/images/mobile/image-night-arcade.jpg)]">
               <div></div>
               <p>Night arcade</p>
             </div>
-            <div className="bg-[url(images/mobile/image-soccer-team.jpg)]">
+            <div className="bg-[url(/images/mobile/image-soccer-team.jpg)]">
               <div></div>
               <p>Soccer team vr</p>
             </div>
-            <div className="bg-[url(images/mobile/image-grid.jpg)]">
+            <div className="bg-[url(/images/mobile/image-grid.jpg)]">
               <div></div>
               <p>the grid</p>
             </div>
-            <div className="bg-[url(images/mobile/image-from-above.jpg)]">
+            <div className="bg-[url(/images/mobile/image-from-above.jpg)]">
               <div></div>
               <p>from up above vr</p>
             </div>
 
-            <div className="bg-[url(images/mobile/image-pocket-borealis.jpg)]">
+            <div className="bg-[url(/images/mobile/image-pocket-borealis.jpg)]">
               <div></div>
               <p>pocket borealis</p>
             </div>
-            <div className="relative bg-[url(images/mobile/image-curiosity.jpg)]">
+            <div className="relative bg-[url(/images/mobile/image-curiosity.jpg)]">
               <div></div>
               <p>The curiosity</p>
             </div>
-            <div className="bg-[url(images/mobile/image-fisheye.jpg)]">
+            <div className="bg-[url(/images/mobile/image-fisheye.jpg)]">
               <div></div>
               <p>make it fisheye</p>
             </div>
