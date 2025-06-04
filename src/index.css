@@ -1,0 +1,25 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import "tailwindcss";
+
+:root{
+  font-size: 15px;  
+  max-width: 1440px;
+  min-width: 375px;
+}
+body{
+  font-family: 'Josefin Sans',sans-serif;
+}
+h1{
+  @apply uppercase font-light;
+}
+.creationGallery > div{
+  @apply relative w-full h-32 text-white text-left uppercase text-2xl font-light bg-cover mt-10
+}
+.creationGallery > div > div{
+  @apply w-[150px] p-4  bg-black/60  h-full mask-r-from-5%
+}
+.creationGallery > div > p{
+  @apply absolute top-8 w-[145px] p-4
+}
