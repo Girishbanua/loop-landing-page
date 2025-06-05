@@ -12,9 +12,6 @@ export default {
       fontFamily:{
         "family1": "Josefin Sans",
         "family2": "Alata"
-      },
-      maskImage: {
-        gradient: 'linear-gradient(to right, black, transparent)'
       }
     },
   },

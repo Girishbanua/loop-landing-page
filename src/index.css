@@ -5,21 +5,22 @@
 
 :root{
   font-size: 15px;  
-  max-width: 1440px;
-  min-width: 375px;
 }
 body{
-  font-family: 'Josefin Sans',sans-serif;
+  font-family: 'Josefin Sans',sans-serif;  
 }
 h1{
   @apply uppercase font-light;
 }
 .creationGallery > div{
-  @apply relative w-full h-32 text-white text-left uppercase text-2xl font-light bg-cover mt-10
+  @apply relative w-full h-32 md:h-[25vh] xl:h-[65vh] md:w-[18vw] xl:w-[16vw] text-white text-left uppercase text-2xl font-light bg-cover mt-10
 }
 .creationGallery > div > div{
-  @apply w-[150px] p-4  bg-black/60  h-full mask-r-from-5%
+  @apply w-[150px] p-4  bg-black/60  h-full mask-r-from-5% md:mask-r-from-0%
 }
 .creationGallery > div > p{
-  @apply absolute top-8 w-[145px] p-4
+  @apply absolute top-8 w-[145px] p-4 xl:top-90 xl:left-10 md:top-50
+}
+li{
+  @apply cursor-pointer p-2 hover:border-b-2
 }
